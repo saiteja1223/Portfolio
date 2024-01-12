@@ -35,7 +35,7 @@ function Works() {
         {ar.map((items, id) => {
           return (
             <div className='Images' style={{display:id===currentIndex?'block':'none'}}>
-              <img src={items.img} width={300} height={300} style={{marginTop:10}}></img>
+              <img src={items.img} alt='image' width={300} height={300} style={{marginTop:10}}></img>
               <h1>{items.title}</h1>
               <p>{items.info}</p>
 
