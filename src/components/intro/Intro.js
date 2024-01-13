@@ -4,6 +4,7 @@ import {Link} from 'react-scroll'
 function Intro() {
   return (
    <section id='intro'>
+      <div className='Note'><h1>Note:View in laptop screen for better experience</h1> </div>
     <div className='introContent'>
         <span className='hello' >Hello</span>
         <span className='introText'>I'm <span className='introName'>SaiTeja</span><br/>Fullstack Developer </span>

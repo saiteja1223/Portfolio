@@ -65,3 +65,37 @@
         right:-41vw;
     
 }}
+.Note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: greenyellow;
+    display: none;
+}
+@media screen and (max-width:480px) {
+    .Note{
+        display:block;
+        
+    }
+    /* YourComponent.css */
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .Note {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite; /* Adjust duration as needed */
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+}
