@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 function Footer() {
   return (
-    <footer className='footer'>hjkfhods</footer>
+    <footer className='footer'>@8096394352</footer>
   )
 }
 

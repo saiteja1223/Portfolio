@@ -55,8 +55,12 @@
 @media screen and (max-width:480px) {
     .skillBar{
         height: 10rem;
-        width: 20rem;
-       margin-left: 1vw;
+        width: 17.5rem;
+        padding-left: 0.5rem;
+     
+    }
+    .skillBars{
+        margin-left: -0.5rem;
     }
     .skillBarText>p{
         /* font-style: 3vw; */
