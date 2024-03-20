@@ -60,9 +60,9 @@
         font-size: 4.5vw;
     }
 }
-@media  screen  and (max-width:360px) {
+@media  screen  and (max-width:480px) {
     .bg{
-        right:-60vw;
+        right:-18rem;
     
 }}
 .Note{
