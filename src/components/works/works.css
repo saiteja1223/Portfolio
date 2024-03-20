@@ -59,7 +59,21 @@
   }
   
   
-  
+  @media  screen  and (max-width:500px) {
+    .Images{
+        height: 28rem;
+    }
+    #one{
+        position: relative;
+        top: 33rem;
+        left: -3.5rem;
+    }
+    #two{
+        position: relative;
+        top: -1rem;
+        left: 1rem;
+    }
+  }
   
   
 

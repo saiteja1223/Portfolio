@@ -53,15 +53,21 @@
     
 }
 @media screen and (max-width:480px) {
+    .skillBar{
+        height: 10rem;
+    }
     .skillBarText>p{
-        font-style: 3vw;
+        /* font-style: 3vw; */
+
+        visibility: hidden;
     }
    .skillBarImg{
-    height: 2.25rem;
-    width: 2.25rem;
+    height: 7.25rem;
+    width: 7.25rem;
    } 
    .skillBarText>h2{
-    font-style: 5vw;
+       font-size: 1.2rem;
+      margin-top:1.5rem;
    }
 }
 .skillSet{

@@ -16,7 +16,7 @@ function Skills() {
     
   return (
     <section className='skills'>
-        <span className='skillTitle'>What I Do</span>
+        <span className='skillTitle'>My Work Encompasses</span>
         <span className='skillDesc'>I am a skilled and passionate web designer with experience in creating virtually appealing and user-friendly websites.I have a stron understanding of design and a keen eye for detail, I am proficient in Html,css,javaScript and Reactjs as well as good with creating restfull API's with springboot</span>
         <div className='skillBars'>
             <div className='skillBar'>

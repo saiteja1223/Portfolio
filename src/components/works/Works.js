@@ -42,6 +42,7 @@ function Works() {
             </div>
           )
         })}
+        
        <div> <button className='bt1' id='two' onClick={()=>forward()}>⏭</button></div> 
 
 
