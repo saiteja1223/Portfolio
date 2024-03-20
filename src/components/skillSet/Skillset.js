@@ -7,9 +7,8 @@ function Skillset({close}) {
       <button className='btn1' onClick={close}>✂</button>
     <div className='imageContainer'>
       
-      <div id='one' className='singleImage'><img src='./Asserts/javaLogo.png' alt=''></img>
-      <h2>Java</h2></div>
-      <div id='two' className='singleImage'><img src='./Asserts/Logo192.png' alt='hbj'></img><h2>React</h2></div>
+      <div id='one1' className='singleImage'><img src='./Asserts/javaLogo.png' alt=''></img><h2>Java</h2></div>
+      <div id='two2' className='singleImage'><img src='./Asserts/Logo192.png' alt='hbj'></img><h2>React</h2></div>
       <div id='three' className='singleImage'><img src='./Asserts/html.png' alt=''></img><h2>Html</h2></div>
       <div id='four' className='singleImage'><img src='./Asserts/cssLogo.jpg' alt=''></img><h2>Css</h2></div>
       <div id='five' className='singleImage'><img src='./Asserts/javascriptLogo.jpg' alt=''></img><h2>JavaScript</h2></div>
