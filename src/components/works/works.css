@@ -46,17 +46,27 @@
          height: 48vw;
     }
 } */
-.Images{
+
+  
+.Images {
+   
     width: 600px;
     height: 420px;
-    /* //backdrop-filter: blur(10px);// */
-    background: linear-gradient(to right,blue,red);
-    background: linear-gradient(to top,rgb(101, 101, 111),rgb(18, 1, 1));
+  
+    background: linear-gradient(to right, blue, red);
+    background: linear-gradient(to top, rgb(101, 101, 111), rgb(18, 1, 1));
     border-radius: 15px;
-}
+  }
+  
+  
+  
+  
+  
+
 .bt1{
-    background:white;
+    /* //background:white; */
     margin: 1rem 0;
+   font-size: 3rem;
    
     border: none;
     border-radius: 2rem;

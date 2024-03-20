@@ -30,7 +30,7 @@ function Works() {
       <span className='worksDesc'>I take pride in paying attention to the smallest details and making sure that my work is pixel perfect ,I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence </span>
       <div className='worksImgs'>
 
-     <div><button className='bt1' id='one' onClick={()=>backword()}>👈</button></div> 
+     <div><button className='bt1' id='one' onClick={()=>backword()}>⏮</button></div> 
 
         {ar.map((items, id) => {
           return (
@@ -42,11 +42,11 @@ function Works() {
             </div>
           )
         })}
-       <div> <button className='bt1' id='two' onClick={()=>forward()}>👉</button></div> 
+       <div> <button className='bt1' id='two' onClick={()=>forward()}>⏭</button></div> 
 
 
       </div>
-       <button className='workBtn'><a href='./Asserts/SaitejaResume.pdf' download='saiteja.pdf'>Download Resume</a></button>
+       <button className='workBtn'><a href='./Asserts/sairesume.pdf' download='saiteja.pdf'>Download Resume</a></button>
     </section>
   )
 }
