@@ -6,10 +6,12 @@ import Skills from '../skills/Skills'
 import Works from '../works/Works'
 import Contact from '../contact/Contact'
 import Footer from '../footer/Footer'
+import Scrollbar from '../Scrollbar'
 function Portfolio() {
   return (
     <div>
         <Navbar></Navbar>
+        <Scrollbar></Scrollbar>
         <Intro></Intro>
         <Skills></Skills>
         <Works></Works>
