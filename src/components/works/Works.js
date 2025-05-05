@@ -47,7 +47,7 @@ function Works() {
 
 
       </div>
-       <button className='workBtn'><a href='./Asserts/sairesume.pdf' download='saiteja.pdf'>Download Resume</a></button>
+       <button className='workBtn'><a href='./Asserts/saitejaresume.pdf' download='saitejaresume.pdf'>Download Resume</a></button>
     </section>
   )
 }

@@ -11,7 +11,7 @@ function Intro() {
         <p className='introPara'>I am a skilled web designer with experience in creating<br></br> visual appealing and user friendly websites </p>
         <Link><button className='btn'><img src='./Asserts/hireme.png' alt='hire me'className='btnImg'></img>Hire me</button></Link>
     </div>
-    <img src='./Asserts/saiteja.png' alt='profilr' className='bg'></img>
+    <img src='./Asserts/saiwork.png' alt='profilr' className='bg'></img>
    </section>
 
   )
